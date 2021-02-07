@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body onresize="navigationControl()" id="body">
+    <a href="#body">
+      <img id="backToTop" src="./img/icons/up_arrow.png" alt="" />
+    </a>
+
+    <div id="wrapper">
+      <div id="parallaxOne">
+        <div class="wrapper">
+          <header>
+            <img
+              id="hamburgerIcon"
+              onclick="showMenu()"
+              src="./img/icons/menu.png"
+              alt=""
+            />
+            <nav>
+              <ul id="navigation">
+                <li><a class="navLink" href="#summary">Summary</a></li>
+                <li><a class="navLink" href="#gallery">Gallery</a></li>
+                <li><a class="navLink" href="#about">About</a></li>
+                <li><a class="navLink" href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </header>
+          <h1 id="welcomePar">
+            Welcome, <br />Hope you enjoy the digital exhibition of <br />
+            my latest project
+          </h1>
+          <div class="flex flex-center">
+            <img id="scroll" src="./img/icons/down_arrow.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div id="parallaxTwo">
+        <section id="summary" class="100Vh flex flex-center">
+          <div class="container">
+            <h2>Summary</h2>
+            <p>
+              I have always been inspired and motivated by the female energy,
+              beauty of their bodies, and power that it posses through life I
+              started to incorporate my love for them Ito my art. Using my
+              favorite way of expression, photography, I take shots that for me
+              speak my vision of power. This project is a product of my
+              inspiration from human connection to nature. Often we adjective it
+              with "mother" nature and I like to think of it as a woman that we
+              all originate from. Mother of the world we live in, a woman that
+              gives life, the power it holds to carry us all. But in our
+              everyday life there are so many women I meet that inspire me with
+              their strength with their life struggles and the ways they keep
+              going.
+            </p>
+            <p>
+              In this project, I captured my inspirations in their natural
+              habitat, nature, and the way they act in such surroundings I find
+              magical.
+            </p>
+          </div>
+        </section>
+      </div>
+      <div id="parallaxThree">
+        <section id="gallery" class="flex flex-center">
+          <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery">
+              <div onclick="openSlideshow(1)" class="gallery-item">
+                <div class="image">
+                  <img
+                    src="./img/gallery/gallery_image_behind_tree.JPG"
+                    alt=""
+                  />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(2)" class="gallery-item">
+                <div class="image">
+                  <img src="./img/gallery/gallery_image_berries.JPG" alt="" />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(3)" class="gallery-item">
+                <div class="image">
+                  <img src="./img/gallery/gallery_image_bra.jpg" alt="" />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(4)" class="gallery-item">
+                <div class="image">
+                  <img src="./img/gallery/gallery_image_drum.JPG" alt="" />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(5)" class="gallery-item">
+                <div class="image">
+                  <img src="./img/gallery/Gallery_image_feathers.JPG" alt="" />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(6)" class="gallery-item">
+                <div class="image">
+                  <img src="./img/gallery/gallery_image_laying.JPG" alt="" />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(7)" class="gallery-item">
+                <div class="image">
+                  <img src="./img/gallery/gallery_image_legs.JPG" alt="" />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(8)" class="gallery-item">
+                <div class="image">
+                  <img src="./img/gallery/gallery_image_meditate.JPG" alt="" />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(9)" class="gallery-item">
+                <div class="image">
+                  <img src="./img/gallery/gallery_image_blue.jpg" alt="" />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(10)" class="gallery-item">
+                <div class="image">
+                  <img src="./img/gallery/gallery_image_shadows.JPG" alt="" />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(11)" class="gallery-item">
+                <div class="image">
+                  <img
+                    src="./img/gallery/gallery_image_smoke_brighter.JPG"
+                    alt=""
+                  />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(12)" class="gallery-item">
+                <div class="image">
+                  <img
+                    src="./img/gallery/gallery_image_smoke_low_light.JPG"
+                    alt=""
+                  />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(13)" class="gallery-item">
+                <div class="image">
+                  <img src="./img/gallery/gallery_image_squat.JPG" alt="" />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(14)" class="gallery-item">
+                <div class="image">
+                  <img src="./img/gallery/gallery_image_sun.JPG" alt="" />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(15)" class="gallery-item">
+                <div class="image">
+                  <img src="./img/gallery/gallery_image_sun2.JPG" alt="" />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(16)" class="gallery-item">
+                <div class="image">
+                  <img src="./img/gallery/gallery_image_tree.JPG" alt="" />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(17)" class="gallery-item">
+                <div class="image">
+                  <img src="./img/gallery/gallery_image_vertical.JPG" alt="" />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(18)" class="gallery-item">
+                <div class="image">
+                  <img
+                    src="./img/gallery/gallery_image_woman_sitting.JPG"
+                    alt=""
+                  />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(19)" class="gallery-item">
+                <div class="image">
+                  <img
+                    src="./img/gallery/gallery_image_woman_standing.JPG"
+                    alt=""
+                  />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+              <div onclick="openSlideshow(20)" class="gallery-item">
+                <div class="image">
+                  <img src="./img/gallery/gallery_image_camera.JPG" alt="" />
+                  <p class="view">VIEW</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div id="parallaxFour">
+        <section id="about" class="fullVh flex flex-center">
+          <div class="container">
+            <h2>About</h2>
+            <p>
+              My name is Ewa Good, a photographer from Poland settled in
+              Copenhagen. Besides a decade of working as a freelance
+              photographer, I express my art through illustrations and
+              tattooing. My compassion gives me the motivation to listen and get
+              inspired by stories and experiences of others, many of my friends
+              found it helpful therefore I started organizing woman sharing
+              circles and give the psychological help through hanging out,
+              speaking out, or just listening.
+            </p>
+            <p>
+              However, I have many passions and it enables me to get creative in
+              many different spheres and kinds of at. I am always keen to learn
+              and try out something new. If you like my style and have any idea
+              that is open for collaboration do not hesitate to send me an
+              inquiry.
+            </p>
+          </div>
+        </section>
+      </div>
+      <div id="parallaxFive">
+        <section id="contact" class=" fullVh flex flex-center">
+          <div class="container">
+            <h2>Contact</h2>
+            <p id="thank">
+              Thank you for your interest! I will get back to you shortly.
+            </p>
+            <form id="myForm" class="flex flex-center" action="">
+              <input type="text" placeholder="name" />
+              <input type="email" placeholder="email" />
+              <input type="text" placeholder="describe your inqury" />
+              <input
+                onclick="contactMessage(this.form)"
+                type="button"
+                value="send"
+              />
+            </form>
+            <div id="socials">
+              <a target="_blank" href="https://www.facebook.com/ewagoddd"
+                ><img src="./img/icons/facebook.png" alt=""
+              /></a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/ewa-godlewska/"
+                ><img src="./img/icons/linkedin.png" alt=""
+              /></a>
+              <a target="_blank" href="https://www.instagram.com/ewagodd/?hl=en"
+                ><img src="./img/icons/instagram.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div id="slideShow" class="flex flex-center" style="display: none">
+        <div>
+          <p id="close" onclick="hideSlideshow(slideShow)">close</p>
+          <div class="currentImage flex flex-center">
+            <img id="currentImage" src="" alt="" />
+          </div>
+        </div>
+        <img
+          src="./img/icons/left_arrow.png"
+          class="slideNavigation"
+          onclick="previousSlide()"
+          id="left"
+          alt=""
+        />
+        <img
+          src="./img/icons/right_arrow.png"
+          class="slideNavigation"
+          onclick="nextSlide()"
+          id="right"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <script>
+
+      
+      window.onload = setTimeout(function () {
+        document.getElementById("welcomePar").style.display = "block";
+        document.getElementById("welcomePar").style.animation = "fadein 3s";
+      }, 1000);
+
+      window.onload = setTimeout(function () {
+        if (window.innerWidth > 600){
+          document.getElementById("navigation").style.display = "grid";
+          document.getElementById("navigation").style.animation = "fadein 5s";
+
+        }
+        
+        document.getElementById("scroll").style.display = "block";
+        document.getElementById("scroll").style.animation = "fadein 5s";
+      }, 3000);
+      window.onscroll = function () {
+        const offset = 600;
+        var currentScroll = window.pageYOffset;
+
+        if (currentScroll >= offset) {
+          document.getElementById("backToTop").style.visibility = "visible";
+        } else {
+          document.getElementById("backToTop").style.visibility = "hidden";
+        }
+      };
+      
+      
+
+    </script>
+  </body>
+</html>
